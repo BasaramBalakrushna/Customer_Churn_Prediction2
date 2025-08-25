@@ -26,7 +26,7 @@ The goal is to help businesses <strong>retain valuable customers</strong> by pro
 
 <h2>🔍 Key Features</h2>
 <ul>
-  <li>📊 Exploratory Data Analysis (EDA) on Olist e-commerce dataset</li>
+  <li>📊 Comprehensive Exploratory Data Analysis (EDA) on Olist e-commerce dataset</li>
   <li>🧹 Feature engineering: orders, spend, reviews, payments, tenure</li>
   <li>🤖 Machine Learning models – Logistic Regression, Random Forest, XGBoost</li>
   <li>🎯 Deployment-ready Streamlit web app for churn scoring</li>
@@ -96,21 +96,6 @@ source .venv/bin/activate  # macOS/Linux</code></pre>
   <li>⭐ Higher <strong>average review scores</strong> correlate with lower churn risk</li>
   <li>💵 Customers with <strong>high lifetime spend</strong> show better retention</li>
 </ul>
-
----
-
-<h2>🤖 Model Performance</h2>
-
-<table>
-<tr><th>Model</th><th>Accuracy</th><th>Precision (Class=1)</th><th>Recall (Class=1)</th><th>F1</th></tr>
-<tr><td>Logistic Regression</td><td>~0.86</td><td>0.72</td><td>0.61</td><td>0.66</td></tr>
-<tr><td>Random Forest</td><td><strong>~0.90</strong></td><td>0.81</td><td><strong>0.74</strong></td><td><strong>0.77</strong></td></tr>
-<tr><td>XGBoost</td><td>~0.89</td><td>0.79</td><td>0.71</td><td>0.75</td></tr>
-</table>
-
-<p>
-✨ <strong>Random Forest selected</strong> for deployment because of balanced performance and robustness across features.
-</p>
 
 ---
 
